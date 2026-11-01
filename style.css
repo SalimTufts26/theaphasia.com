@@ -6,7 +6,12 @@ body {
 p {
   padding: 8px;
   line-height: 20px;
-  font-size: 17px;
+  font-size: 18px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
 }
 
 nav {
@@ -50,7 +55,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./assets/mainPic.png");
+  background-image: url("./assets/unnamed\ \(1\).jpg");
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -66,8 +71,9 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border: solid rgba(67, 0, 22, 0.596);
+  border: solid rgba(67, 0, 22, 0.596) 4px;
   border-radius: 7px;
+  background-color: rgba(15, 0, 4, 0.567);
 }
 
 .about h1,
@@ -86,4 +92,30 @@ footer {
   border: solid rgba(67, 0, 22, 0.596);
   border-radius: 7px;
   width: 40%;
+}
+
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: solid rgba(67, 0, 22, 0.596) 4px;
+  border-radius: 20px;
+  background-color: rgba(15, 0, 4, 0.567);
+  height: 100%;
+  width: 60%;
+  padding: 5px;
+}
+
+.feet {
+  display: flex;
+  font-size: 4px;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feet a {
+   color: rgba(15, 0, 4, 0.567);
 }
