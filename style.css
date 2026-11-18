@@ -39,19 +39,34 @@ ul {
   font-size: 23px;
 }
 
-.container {
+.container,
+.musicContainer {
   margin-top: 100px;
   width: 100%;
-  height: 800px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+}
+
+#home {
   background-image: url("./assets/unnamed\ \(1\).jpg");
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
+  height: 800px;
+}
 
+#music {
+  background-image: url("./assets/salimPic1.png");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 50px;
+  height: 500px;
 }
 
 .about {
@@ -125,6 +140,7 @@ footer {
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.656);
   margin-left: -80px;
+  margin-top: 20%;
   width: 50%;
   box-shadow: -4px 2px 5px 0px black;
 }
